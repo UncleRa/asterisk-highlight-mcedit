@@ -1,0 +1,433 @@
+# Description	: Syntax rules for Asterisk dialplan language
+# Author	: Rozes "Ramzes" Alexander
+# Date		: 2017-04-06
+# Usage		: Add following lines at Syntax file
+#			file extensions.\*\\.conf$ Asterisk\sdialplan
+#			include asterisk.syntax
+
+context default
+    keyword whole \{Aa\}dd\{Qq\}ueue\{Mm\}ember brightmagenta
+    keyword whole \{Aa\}\{Dd\}\{Ss\}\{Ii\}\{Pp\}rog brightmagenta
+    keyword whole \{Aa\}gent\{Ll\}ogin brightmagenta
+    keyword whole \{Aa\}gent\{Rr\}equest brightmagenta
+    keyword whole \{Aa\}\{Gg\}\{Ii\} brightmagenta
+    keyword whole \{Aa\}larm\{Rr\}eceiver brightmagenta
+    keyword whole \{Aa\}\{Mm\}\{Dd\} brightmagenta
+    keyword whole \{Aa\}nswer brightmagenta
+    keyword whole \{Aa\}uthenticate brightmagenta
+    keyword whole \{Bb\}ack\{Gg\}round brightmagenta
+    keyword whole \{Bb\}ackground\{Dd\}etect brightmagenta
+    keyword whole \{Bb\}ridge brightmagenta
+    keyword whole \{Bb\}ridge\{Ww\}ait brightmagenta
+    keyword whole \{Bb\}usy brightmagenta
+    keyword whole \{Cc\}all\{Cc\}ompletion\{Cc\}ancel brightmagenta
+    keyword whole \{Cc\}all\{Cc\}ompletion\{Rr\}equest brightmagenta
+    keyword whole \{Cc\}\{Ee\}\{Ll\}\{Gg\}en\{Uu\}ser\{Ee\}vent brightmagenta
+    keyword whole \{Cc\}hange\{Mm\}onitor brightmagenta
+    keyword whole \{Cc\}han\{Ii\}s\{Aa\}vail brightmagenta
+    keyword whole \{Cc\}hannel\{Rr\}edirect brightmagenta
+    keyword whole \{Cc\}han\{Ss\}py brightmagenta
+    keyword whole \{Cc\}lear\{Hh\}ash brightmagenta
+    keyword whole \{Cc\}onf\{Bb\}ridge brightmagenta
+    keyword whole \{Cc\}ongestion brightmagenta
+    keyword whole \{Cc\}ontinue\{Ww\}hile brightmagenta
+    keyword whole \{Cc\}ontrol\{Pp\}layback brightmagenta
+    keyword whole \{Dd\}\{Aa\}\{Hh\}\{Dd\}\{Ii\}\{Rr\}\{Aa\}\{Ss\} brightmagenta
+    keyword whole \{Dd\}\{Aa\}\{Hh\}\{Dd\}\{Ii\}\{Ss\}can brightmagenta
+    keyword whole \{Dd\}\{Aa\}\{Hh\}\{Dd\}\{Ii\}\{Ss\}end\{Cc\}allrerouting\{Ff\}acility brightmagenta
+    keyword whole \{Dd\}\{Aa\}\{Hh\}\{Dd\}\{Ii\}\{Ss\}end\{Kk\}eypad\{Ff\}acility brightmagenta
+    keyword whole \{Dd\}ate\{Tt\}ime brightmagenta
+    keyword whole \{Dd\}\{Bb\}del brightmagenta
+    keyword whole \{Dd\}\{Bb\}deltree brightmagenta
+    keyword whole \{Dd\}ead\{Aa\}\{Gg\}\{Ii\} brightmagenta
+    keyword whole \{Dd\}ial brightmagenta
+    keyword whole \{Dd\}ictate brightmagenta
+    keyword whole \{Dd\}irectory brightmagenta
+    keyword whole \{Dd\}\{Ii\}\{Ss\}\{Aa\} brightmagenta
+    keyword whole \{Dd\}ump\{Cc\}han brightmagenta
+    keyword whole \{Ee\}\{Aa\}\{Gg\}\{Ii\} brightmagenta
+    keyword whole \{Ee\}cho brightmagenta
+    keyword whole \{Ee\}ndWhile brightmagenta
+    keyword whole \{Ee\}xec brightmagenta
+    keyword whole \{Ee\}xec\{Ii\}f brightmagenta
+    keyword whole \{Ee\}xec\{Ii\}f\{Tt\}ime brightmagenta
+    keyword whole \{Ee\}xit\{Ww\}hile brightmagenta
+    keyword whole \{Ee\}xten\{Ss\}py brightmagenta
+    keyword whole \{Ee\}xternal\{Ii\}\{Vv\}\{Rr\} brightmagenta
+    keyword whole \{Ff\}estival brightmagenta
+    keyword whole \{Ff\}lash brightmagenta
+    keyword whole \{Ff\}ollow\{Mm\}e brightmagenta
+    keyword whole \{Ff\}ork\{Cc\}\{Dd\}\{Rr\} brightmagenta
+    keyword whole \{Gg\}et\{Cc\}\{Pp\}\{Ee\}\{Ii\}\{Dd\} brightmagenta
+    keyword whole \{Gg\}o\{Ss\}ub brightmagenta
+    keyword whole \{Gg\}o\{Ss\}ub\{Ii\}f brightmagenta
+    keyword whole \{Gg\}o\{Tt\}o brightmagenta
+    keyword whole \{Gg\}oto\{Ii\}f brightmagenta
+    keyword whole \{Gg\}oto\{Ii\}f\{Tt\}ime brightmagenta
+    keyword whole \{Hh\}angup brightmagenta
+    keyword whole \{Hh\}angup\{Cc\}ause\{Cc\}lear brightmagenta
+    keyword whole \{Ii\}\{Aa\}\{Xx\}2\{Pp\}rovision brightmagenta
+    keyword whole \{Ii\}\{Cc\}\{Ee\}\{Ss\} brightmagenta
+    keyword whole \{Ii\}mport\{Vv\}ar brightmagenta
+    keyword whole \{Ii\}ncomplete brightmagenta
+    keyword whole \{Ii\}\{Vv\}\{Rr\}\{Dd\}emo brightmagenta
+    keyword whole \{Jj\}abber\{Jj\}oin brightmagenta
+    keyword whole \{Jj\}abber\{Ll\}eave brightmagenta
+    keyword whole \{Jj\}abber\{Ss\}end brightmagenta
+    keyword whole \{Jj\}abber\{Ss\}end\{Gg\}roup brightmagenta
+    keyword whole \{Jj\}abber\{Ss\}tatus brightmagenta
+    keyword whole \{Ll\}og brightmagenta
+    keyword whole \{Mm\}acro brightmagenta
+    keyword whole \{Mm\}acro\{Ee\}xclusive brightmagenta
+    keyword whole \{Mm\}acro\{Ee\}xit brightmagenta
+    keyword whole \{Mm\}acro\{Ii\}f brightmagenta
+    keyword whole \{Mm\}acro\{Rr\}eturn brightmagenta
+    keyword whole \{Mm\}ailbox\{Ee\}xists brightmagenta
+    keyword whole \{Mm\}eet\{Mm\}e brightmagenta
+    keyword whole \{Mm\}eet\{Mm\}e\{Aa\}dmin brightmagenta
+    keyword whole \{Mm\}eet\{Mm\}e\{Cc\}hannel\{Aa\}dmin brightmagenta
+    keyword whole \{Mm\}eet\{Mm\}e\{Cc\}ount brightmagenta
+    keyword whole \{Mm\}essage\{Ss\}end brightmagenta
+    keyword whole \{Mm\}illiwatt brightmagenta
+    keyword whole \{Mm\}inivm\{Aa\}cc\{Mm\}ess brightmagenta
+    keyword whole \{Mm\}inivm\{Dd\}elete brightmagenta
+    keyword whole \{Mm\}inivm\{Gg\}reet brightmagenta
+    keyword whole \{Mm\}inivm\{Mm\}\{Ww\}\{Ii\} brightmagenta
+    keyword whole \{Mm\}inivm\{Nn\}otify brightmagenta
+    keyword whole \{Mm\}inivm\{Rr\}ecord brightmagenta
+    keyword whole \{Mm\}ix\{Mm\}onitor brightmagenta
+    keyword whole \{Mm\}onitor brightmagenta
+    keyword whole \{Mm\}orsecode brightmagenta
+    keyword whole \{Mm\}\{Pp\}3\{Pp\}layer brightmagenta
+    keyword whole \{Mm\}\{Ss\}et brightmagenta
+    keyword whole \{Mm\}usic\{Oo\}n\{Hh\}old brightmagenta
+    keyword whole \{Nn\}\{Bb\}\{Ss\}cat brightmagenta
+    keyword whole \{Nn\}o\{Cc\}\{Dd\}\{Rr\} brightmagenta
+    keyword whole \{Nn\}o\{Oo\}\{Pp\} brightmagenta
+    keyword whole \{Oo\}\{Dd\}\{Bb\}\{Cc\}_\{Cc\}ommit brightmagenta
+    keyword whole \{Oo\}\{Dd\}\{Bb\}\{Cc\}_\{Rr\}ollback brightmagenta
+    keyword whole \{Oo\}\{Dd\}\{Bb\}\{Cc\}\{Ff\}inish brightmagenta
+    keyword whole \{Oo\}riginate brightmagenta
+    keyword whole \{Pp\}age brightmagenta
+    keyword whole \{Pp\}ark brightmagenta
+    keyword whole \{Pp\}ark\{Aa\}nd\{Aa\}nnounce brightmagenta
+    keyword whole \{Pp\}arked\{Cc\}all brightmagenta
+    keyword whole \{Pp\}ause\{Mm\}onitor brightmagenta
+    keyword whole \{Pp\}ause\{Qq\}ueue\{Mm\}ember brightmagenta
+    keyword whole \{Pp\}ickup brightmagenta
+    keyword whole \{Pp\}ickup\{Cc\}han brightmagenta
+    keyword whole \{Pp\}layback brightmagenta
+    keyword whole \{Pp\}lay\{Tt\}ones brightmagenta
+    keyword whole \{Pp\}rivacy\{Mm\}anager brightmagenta
+    keyword whole \{Pp\}roceeding brightmagenta
+    keyword whole \{Pp\}rogress brightmagenta
+    keyword whole \{Qq\}ueue brightmagenta
+    keyword whole \{Qq\}ueue\{Ll\}og brightmagenta
+    keyword whole \{Rr\}aise\{Ee\}xception brightmagenta
+    keyword whole \{Rr\}ead brightmagenta
+    keyword whole \{Rr\}ead\{Ee\}xten brightmagenta
+    keyword whole \{Rr\}eceive\{Ff\}\{Aa\}\{Xx\} brightmagenta
+    keyword whole \{Rr\}ecord brightmagenta
+    keyword whole \{Rr\}emove\{Qq\}ueue\{Mm\}ember brightmagenta
+    keyword whole \{Rr\}eset\{Cc\}\{Dd\}\{Rr\} brightmagenta
+    keyword whole \{Rr\}etry\{Dd\}ial brightmagenta
+    keyword whole \{Rr\}eturn brightmagenta
+    keyword whole \{Rr\}inging brightmagenta
+    keyword whole \{Ss\}ay\{Aa\}lpha brightmagenta
+    keyword whole \{Ss\}ay\{Aa\}lpha\{Cc\}ase brightmagenta
+    keyword whole \{Ss\}ay\{Cc\}ounted\{Aa\}dj brightmagenta
+    keyword whole \{Ss\}ay\{Cc\}ounted\{Nn\}oun brightmagenta
+    keyword whole \{Ss\}ay\{Dd\}igits brightmagenta
+    keyword whole \{Ss\}ay\{Nn\}umber brightmagenta
+    keyword whole \{Ss\}ay\{Pp\}honetic brightmagenta
+    keyword whole \{Ss\}ay\{Uu\}nix\{Tt\}ime brightmagenta
+    keyword whole \{Ss\}end\{Dd\}\{Tt\}\{Mm\}\{Ff\} brightmagenta
+    keyword whole \{Ss\}end\{Ff\}\{Aa\}\{Xx\} brightmagenta
+    keyword whole \{Ss\}end\{Ii\}mage brightmagenta
+    keyword whole \{Ss\}end\{Tt\}ext brightmagenta
+    keyword whole \{Ss\}end\{Uu\}\{Rr\}\{Ll\} brightmagenta
+    keyword whole \{Ss\}et brightmagenta
+    keyword whole \{Ss\}et\{Vv\}ar brightmagenta
+    keyword whole \{Ss\}et\{Aa\}\{Mm\}\{Aa\}\{Ff\}lags brightmagenta
+    keyword whole \{Ss\}\{Ii\}\{Pp\}\{Aa\}dd\{Hh\}eader brightmagenta
+    keyword whole \{Ss\}\{Ii\}\{Pp\}\{Dd\}\{Tt\}\{Mm\}\{Ff\}\{Mm\}ode brightmagenta
+    keyword whole \{Ss\}\{Ii\}\{Pp\}\{Rr\}emove\{Hh\}eader brightmagenta
+    keyword whole \{Ss\}kel\{Gg\}uess\{Nn\}umber brightmagenta
+    keyword whole \{Ss\}\{Ll\}\{Aa\}\{Ss\}tation brightmagenta
+    keyword whole \{Ss\}\{Ll\}\{Aa\}\{Tt\}runk brightmagenta
+    keyword whole \{Ss\}\{Mm\}\{Ss\} brightmagenta
+    keyword whole \{Ss\}oft\{Hh\}angup brightmagenta
+    keyword whole \{Ss\}peech\{Aa\}ctivate\{Gg\}rammar brightmagenta
+    keyword whole \{Ss\}peech\{Bb\}ackground brightmagenta
+    keyword whole \{Ss\}peech\{Cc\}reate brightmagenta
+    keyword whole \{Ss\}peech\{Dd\}eactivate\{Gg\}rammar brightmagenta
+    keyword whole \{Ss\}peech\{Dd\}estroy brightmagenta
+    keyword whole \{Ss\}peech\{Ll\}oad\{Gg\}rammar brightmagenta
+    keyword whole \{Ss\}peech\{Pp\}rocessing\{Ss\}ound brightmagenta
+    keyword whole \{Ss\}peech\{Ss\}tart brightmagenta
+    keyword whole \{Ss\}peech\{Uu\}nload\{Gg\}rammar brightmagenta
+    keyword whole \{Ss\}tack\{Pp\}op brightmagenta
+    keyword whole \{Ss\}tart\{Mm\}usic\{Oo\}n\{Hh\}old brightmagenta
+    keyword whole \{Ss\}tasis brightmagenta
+    keyword whole \{Ss\}top\{Mm\}ix\{Mm\}onitor brightmagenta
+    keyword whole \{Ss\}top\{Mm\}onitor brightmagenta
+    keyword whole \{Ss\}top\{Mm\}usic\{Oo\}n\{Hh\}old brightmagenta
+    keyword whole \{Ss\}top\{Pp\}lay\{Tt\}ones brightmagenta
+    keyword whole \{Ss\}ystem brightmagenta
+    keyword whole \{Tt\}est\{Cc\}lient brightmagenta
+    keyword whole \{Tt\}est\{Ss\}erver brightmagenta
+    keyword whole \{Tt\}ransfer brightmagenta
+    keyword whole \{Tt\}ry\{Ee\}xec brightmagenta
+    keyword whole \{Tt\}ry\{Ss\}ystem brightmagenta
+    keyword whole \{Uu\}npause\{Mm\}onitor brightmagenta
+    keyword whole \{Uu\}npause\{Qq\}ueue\{Mm\}ember brightmagenta
+    keyword whole \{Uu\}ser\{Ee\}vent brightmagenta
+    keyword whole \{Vv\}erbose brightmagenta
+    keyword whole \{Vv\}\{Mm\}\{Aa\}uthenticate brightmagenta
+    keyword whole \{Vv\}\{Mm\}\{Ss\}ay\{Nn\}ame brightmagenta
+    keyword whole \{Vv\}oice\{Mm\}ail brightmagenta
+    keyword whole \{Vv\}oice\{Mm\}ail\{Mm\}ain brightmagenta
+    keyword whole \{Vv\}oice\{Mm\}ail\{Pp\}lay\{Mm\}sg brightmagenta
+    keyword whole \{Ww\}ait brightmagenta
+    keyword whole \{Ww\}ait\{Ee\}xten brightmagenta
+    keyword whole \{Ww\}ait\{Ff\}or\{Nn\}oise brightmagenta
+    keyword whole \{Ww\}ait\{Ff\}or\{Rr\}ing brightmagenta
+    keyword whole \{Ww\}ait\{Ff\}or\{Ss\}ilence brightmagenta
+    keyword whole \{Ww\}ait\{Uu\}ntil brightmagenta
+    keyword whole \{Ww\}hile brightmagenta
+    keyword whole \{Zz\}apateller brightmagenta
+
+    keyword whole AES_DECRYPT yellow
+    keyword whole AES_ENCRYPT yellow
+    keyword whole AGC yellow
+    keyword whole AGENT yellow
+    keyword whole AMI_CLIENT yellow
+    keyword whole ARRAY yellow
+    keyword whole AST_CONFIG yellow
+    keyword whole AST_SORCERY yellow
+    keyword whole AUDIOHOOK_INHERIT yellow
+    keyword whole BASE64_DECODE yellow
+    keyword whole BASE64_ENCODE yellow
+    keyword whole BLACKLIST yellow
+    keyword whole CALENDAR_BUSY yellow
+    keyword whole CALENDAR_EVENT yellow
+    keyword whole CALENDAR_QUERY yellow
+    keyword whole CALENDAR_QUERY_RESUL yellow
+    keyword whole CALENDAR_WRITE yellow
+    keyword whole CALLCOMPLETION yellow
+    keyword whole CALLERID yellow
+    keyword whole CALLERPRES yellow
+    keyword whole CDR yellow
+    keyword whole CDR_PROP yellow
+    keyword whole CHANNEL yellow
+    keyword whole CHANNELS yellow
+    keyword whole CHECKSIPDOMAIN yellow
+    keyword whole CONFBRIDGE yellow
+    keyword whole CONFBRIDGE_INFO yellow
+    keyword whole CONNECTEDLINE yellow
+    keyword whole CSV_QUOTE yellow
+    keyword whole CURL yellow
+    keyword whole CURLOPT yellow
+    keyword whole CUT yellow
+    keyword whole DB yellow
+    keyword whole DB_DELETE yellow
+    keyword whole DB_EXISTS yellow
+    keyword whole DB_KEYS yellow
+    keyword whole DEC yellow
+    keyword whole DENOISE yellow
+    keyword whole DEVICE_STATE yellow
+    keyword whole DIALGROUP yellow
+    keyword whole DIALPLAN_EXISTS yellow
+    keyword whole DUNDILOOKUP yellow
+    keyword whole DUNDIQUERY yellow
+    keyword whole DUNDIRESULT yellow
+    keyword whole ENUMLOOKUP yellow
+    keyword whole ENUMQUERY yellow
+    keyword whole ENUMRESULT yellow
+    keyword whole ENV yellow
+    keyword whole EVAL yellow
+    keyword whole EXCEPTION yellow
+    keyword whole EXISTS yellow
+    keyword whole EXTENSION_STATE yellow
+    keyword whole FAXOPT yellow
+    keyword whole FEATURE yellow
+    keyword whole FEATUREMAP yellow
+    keyword whole FIELDNUM yellow
+    keyword whole FIELDQTY yellow
+    keyword whole FILE yellow
+    keyword whole FILE_COUNT_LINE yellow
+    keyword whole FILE_FORMAT yellow
+    keyword whole FILTER yellow
+    keyword whole FRAME_TRACE yellow
+    keyword whole GLOBAL yellow
+    keyword whole GROUP yellow
+    keyword whole GROUP_COUNT yellow
+    keyword whole GROUP_LIST yellow
+    keyword whole GROUP_MATCH_COUNT yellow
+    keyword whole HANGUPCAUSE yellow
+    keyword whole HANGUPCAUSE_KEYS yellow
+    keyword whole HASH yellow
+    keyword whole HASHKEYS yellow
+    keyword whole HINT yellow
+    keyword whole HOLD_INTERCEPT yellow
+    keyword whole IAXPEER yellow
+    keyword whole IAXVAR yellow
+    keyword whole ICONV yellow
+    keyword whole IF yellow
+    keyword whole IFMODULE yellow
+    keyword whole IFTIME yellow
+    keyword whole IMPORT yellow
+    keyword whole INC yellow
+    keyword whole ISNULL yellow
+    keyword whole JABBER_RECEIVE yellow
+    keyword whole JABBER_STATUS yellow
+    keyword whole JITTERBUFFER yellow
+    keyword whole KEYPADHASH yellow
+    keyword whole LEN yellow
+    keyword whole LISTFILTER yellow
+    keyword whole LOCAL yellow
+    keyword whole LOCAL_PEEK yellow
+    keyword whole LOCK yellow
+    keyword whole MAILBOX_EXISTS yellow
+    keyword whole MASTER_CHANNEL yellow
+    keyword whole MATH yellow
+    keyword whole MD5 yellow
+    keyword whole MEETME_INFO yellow
+    keyword whole MESSAGE yellow
+    keyword whole MESSAGE_DATA yellow
+    keyword whole MINIVMACCOUNT yellow
+    keyword whole MINIVMCOUNTER yellow
+    keyword whole MIXMONITOR yellow
+    keyword whole MUTEAUDIO yellow
+    keyword whole ODBC yellow
+    keyword whole ODBC_ANTIGF yellow
+    keyword whole ODBC_FETCH yellow
+    keyword whole ODBC_PRESENCE yellow
+    keyword whole ODBC_SQL yellow
+    keyword whole PASSTHRU yellow
+    keyword whole PERIODIC_HOOK yellow
+    keyword whole PITCH_SHIFT yellow
+    keyword whole POP yellow
+    keyword whole PP_EACH_EXTENSION yellow
+    keyword whole PP_EACH_USER yellow
+    keyword whole PRESENCE_STATE yellow
+    keyword whole PUSH yellow
+    keyword whole QUEUE_EXISTS yellow
+    keyword whole QUEUE_MEMBER yellow
+    keyword whole QUEUE_MEMBER_COUNT yellow
+    keyword whole QUEUE_MEMBER_LIST yellow
+    keyword whole QUEUE_MEMBER_PENALTY yellow
+    keyword whole QUEUE_VARIABLES yellow
+    keyword whole QUEUE_WAITING_COUNT yellow
+    keyword whole QUOTE yellow
+    keyword whole RAND yellow
+    keyword whole REALTIME yellow
+    keyword whole REALTIME_DESTROY yellow
+    keyword whole REALTIME_FIELD yellow
+    keyword whole REALTIME_HASH yellow
+    keyword whole REALTIME_STORE yellow
+    keyword whole REDIRECTING yellow
+    keyword whole REGEX yellow
+    keyword whole REPLACE yellow
+    keyword whole SET yellow
+    keyword whole SHA1 yellow
+    keyword whole SHARED yellow
+    keyword whole SHELL yellow
+    keyword whole SHIFT yellow
+    keyword whole SIPPEER yellow
+    keyword whole SIP_HEADER yellow
+    keyword whole SMDI_MSG yellow
+    keyword whole SMDI_MSG_RETRIEVE yellow
+    keyword whole SORT yellow
+    keyword whole SPEECH yellow
+    keyword whole SPEECH_ENGINE yellow
+    keyword whole SPEECH_GRAMMAR yellow
+    keyword whole SPEECH_RESULTS_TYPE yellow
+    keyword whole SPEECH_SCORE yellow
+    keyword whole SPEECH_TEXT yellow
+    keyword whole SPRINTF yellow
+    keyword whole SQL_ESC yellow
+    keyword whole SRVQUERY yellow
+    keyword whole SRVRESULT yellow
+    keyword whole STACK_PEEK yellow
+    keyword whole STAT yellow
+    keyword whole STRFTIME yellow
+    keyword whole STRPTIME yellow
+    keyword whole STRREPLACE yellow
+    keyword whole SYSINFO yellow
+    keyword whole TALK_DETECT yellow
+    keyword whole TESTTIME yellow
+    keyword whole TIMEOUT yellow
+    keyword whole TOLOWER yellow
+    keyword whole TOUPPER yellow
+    keyword whole TRYLOCK yellow
+    keyword whole TXTCIDNAME yellow
+    keyword whole UNLOCK yellow
+    keyword whole UNSHIFT yellow
+    keyword whole URIDECODE yellow
+    keyword whole URIENCODE yellow
+    keyword whole VALID_EXTEN yellow
+    keyword whole VERSION yellow
+    keyword whole VMCOUNT yellow
+    keyword whole VM_INFO yellow
+    keyword whole VOLUME yellow
+    
+    # Request from Andy
+    keyword whole CBMysql brightmagenta
+    keyword whole MYSQL brightmagenta
+
+    keyword $[*] brightgreen
+    keyword ${*} brightgreen
+
+    keyword whole \#include brightred
+    keyword whole \#exec brightred
+    keyword whole include\s*=> brightblue
+    keyword whole exten\s*=> brightblue
+    keyword whole same\s*=> brightblue
+    keyword whole include=> brightblue
+    keyword whole exten=> brightblue
+    keyword whole same=> brightblue
+
+    keyword , brightcyan
+    keyword ( brightcyan
+    keyword ) brightcyan
+    keyword : brightcyan
+    keyword ? brightcyan
+
+    keyword --; brown
+
+context ;--\n --; brown
+
+context linestart [ ] yellow
+
+context  ; \n brown
+
+context exclusive \#exec \n brightgreen
+
+context exclusive \#include \n brightgreen
+
+context exclusive include\s=> \n yellow
+
+context exclusive include=> \n yellow
+
+context exclusive n( ), yellow
+
+context exclusive verbose ) white
+    keyword ( brightcyan
+    keyword $[*] brightgreen
+    keyword ${*} brightgreen
+
+context exclusive Verbose ) white
+    keyword ( brightcyan
+    keyword $[*] brightgreen
+    keyword ${*} brightgreen
+
+context exclusive No\{Oo\}\{Pp\} ) white
+    keyword ( brightcyan
+    keyword $[*] brightgreen
+    keyword ${*} brightgreen
+
+context exclusive no\{Oo\}\{Pp\} ) white
+    keyword ( brightcyan
+    keyword $[*] brightgreen
+    keyword ${*} brightgreen
