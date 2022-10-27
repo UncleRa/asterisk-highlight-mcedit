@@ -1,5 +1,5 @@
 # Description	: Syntax rules for Asterisk dialplan language
-# Author	: Rozes "Ramzes" Alexander
+# Author	: Alexander "Ramzes" Rozes
 # Date		: 2017-04-06
 # Usage		: Add following lines at Syntax file
 #			file extensions.\*\\.conf$ Asterisk\sdialplan
@@ -380,6 +380,7 @@ context default
     keyword ${*} brightgreen
 
     keyword whole \#include brightred
+    keyword whole \#tryinclude brightred
     keyword whole \#exec brightred
     keyword whole include\s*=> brightblue
     keyword whole exten\s*=> brightblue
